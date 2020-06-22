@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5dfae48-2559-4dbe-aa0e-d8f8149d1002" name="Default Changelist" comment="" />
+    <list default="true" id="f5dfae48-2559-4dbe-aa0e-d8f8149d1002" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/RoFPlatformViewFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/RoFPlatformViewFactory.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/RoFWKWebView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/RoFWKWebView.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_split_navigator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/Runner/RoFPlatformViewFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/Runner/RoFPlatformViewFactory.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/Runner/RoFWKWebView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/Runner/RoFWKWebView.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rof_split_navigator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoFSplit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RoFSplit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/RoFSplit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/RoFSplit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/RoFSplit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/RoFSplit.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_info.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_master_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_master_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_split.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/RoFSplit/lib/rof_split.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RoFSplit.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RoFSplit.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rof_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rof_info.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rof_master_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rof_master_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rof_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rof_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rof_split.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rof_split.dart" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +56,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dRArNYY7n6ZGsXICnhtcS83wyG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,5 +92,18 @@
       <updated>1592377729640</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

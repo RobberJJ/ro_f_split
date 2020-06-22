@@ -1,5 +1,7 @@
 library ro_f_split;
 
+export 'rof_info.dart';
+export 'rof_router.dart';
 export 'rof_split.dart';
 
 //class RoFSplit {

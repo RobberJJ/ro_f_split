@@ -4,11 +4,14 @@ PODS:
     - Flutter
   - RoFSplit (0.0.1):
     - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - RoFDevice (from `.symlinks/plugins/RoFDevice/ios`)
   - RoFSplit (from `.symlinks/plugins/RoFSplit/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
@@ -17,11 +20,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/RoFDevice/ios"
   RoFSplit:
     :path: ".symlinks/plugins/RoFSplit/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   RoFDevice: 4141cf48669184a98904923bc7d88179f70faaa6
   RoFSplit: b50c4658c2c97e76c87683939b8f267c5a228269
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
 
 PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
 

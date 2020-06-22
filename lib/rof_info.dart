@@ -1,8 +1,34 @@
 import 'package:flutter/cupertino.dart';
 
+final Map<String, Map> _navigatorStateKeys = {};
+
+enum RoFSplitNavigatorStateKeyType {
+  /// master 区域 navigator state
+  master,
+  /// detail 区域 navigator state
+  detail,
+
+}
+
 class RoFInfo {
   static final GlobalKey<NavigatorState> kRoFSplitNavigatorStateMaster  = GlobalKey<NavigatorState>();
   static final GlobalKey<NavigatorState> kRoFSplitNavigatorStateDetail  = GlobalKey<NavigatorState>();
+
+  static GlobalKey<NavigatorState> generateNavigatorKey(String signKey, {RoFSplitNavigatorStateKeyType type = RoFSplitNavigatorStateKeyType.detail}) {
+    if(null == signKey){
+      return null;
+    }
+
+    if(null != _navigatorStateKeys[signKey] && null != _navigatorStateKeys[signKey][type]){
+      return _navigatorStateKeys[signKey][type];
+    }
+
+    GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+    Map keyMap = _navigatorStateKeys[signKey] ?? {};
+    keyMap[type] = navigatorKey;
+    _navigatorStateKeys[signKey] = keyMap;
+    return navigatorKey;
+  }
 
   ///当前App所占屏幕宽度
   static double windowWidth = 0.0;
@@ -25,7 +51,7 @@ class RoFInfo {
 
   ///iPad判断私有方法
   static bool _isSplit() {
-    return isIpad && (windowWidth > windowHeight) && (screenWidth > 0) && (windowWidth / screenWidth > 0.5);
+    return isIpad && (screenWidth > screenHeight) && (screenWidth > 0) && (windowWidth / screenWidth > 0.5);
   }
 
   ///获取split master width，规则 [screenWidth] 的1/3，不可分屏状态下为 0

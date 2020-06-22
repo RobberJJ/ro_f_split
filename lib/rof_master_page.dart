@@ -1,3 +1,5 @@
+import 'package:RoFSplit/rof_info.dart';
+import 'package:RoFSplit/rof_router.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +31,7 @@ class _RoFSplitMasterPageState extends State<RoFSplitMasterPage> {
       body: InkWell(
         onTap: () {
           if (widget.navigatorState != null)
-            widget.navigatorState.currentState.push(MaterialPageRoute(
+            RoFRouter.currentNavigatorState().push(MaterialPageRoute(
                 builder: (context) => RoFSplitMasterPage(
                   title: (int.parse(widget.title??'0') + 1).toString(),
                   navigatorState: widget.navigatorState,
